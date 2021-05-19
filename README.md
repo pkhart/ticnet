@@ -15,4 +15,4 @@ The tutorial is intended as an introduction to working with neural networks with
 2) Run the first cell to authorize colab to save the files to your google drive. This step is not necessary to run the code, but allows 
 you to save modifications to the code, and any models that you train.
 3) Run the second cell to pull the code from github.
-4) Run the rest of the cells. Follow along with the documention and experiment!
+4) Run the rest of the cells. Follow along with the documentation and experiment!
