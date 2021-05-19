@@ -1,6 +1,6 @@
 import os
 import random
-from model import TicTacToeModel
+# from model import TicTacToeModel
 import copy
 from tensorflow import keras
 import tensorflow as tf
@@ -209,7 +209,7 @@ class Game:
                 draws = draws + 1
             else: 
                 randomPlayerWins = randomPlayerWins + 1
-                model.updateWithOne(copy.deepcopy(self.board))
+                # model.updateWithOne(copy.deepcopy(self.board))
         totalWins = nnPlayerWins + randomPlayerWins + draws
         # print ('X Wins: ' + str(int(nnPlayerWins * 100/totalWins)) + '%')
         # print('O Wins: ' + str(int(randomPlayerWins * 100 / totalWins)) + '%')
